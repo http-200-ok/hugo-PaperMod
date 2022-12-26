@@ -3,12 +3,11 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }} </a></span>
     {{- end }}
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+         | Links: 
+        <a href="about">About</a> • <a href="posts">Blog</a> • <a href="https://samirpaul1.github.io/contact" target="_blank">Contact</a> • <a href="https://www.linkedin.com/in/SamirPaul" target="_blank">LinkedIn</a> • <a href="https://github.com/SamirPaul1" target="_blank">GitHub</a>
     </span>
 </footer>
 {{- end }}
